@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: # Todo POD tem informações que são metadados
+  name: "goserver"
+  labels: 
+    app: "goserver"
+spec:
+  containers:
+    - name: "goserver"
+      image: juliocesarlemos/hello-go:latest
+
